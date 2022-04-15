@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-discord = "*"
 autopep8 = "*"
 flake8 = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
+nextcord = "*"
 
 [dev-packages]
 
