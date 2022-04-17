@@ -9,6 +9,7 @@ flake8 = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
 nextcord = "*"
+prettytable = "*"
 
 [dev-packages]
 
