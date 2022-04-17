@@ -23,10 +23,9 @@ class ReadCommands(commands.Cog):
 		for i in query:
 			row_list = []
 			for column in column_names:
-				row_list.append([getattr(i, column)])
+				row_list.append(getattr(i, column))
 			ascii_table.add_row(row_list)
 
-		# TODO: Make the bot reply with the values as STRINGS, not as elements in al ist.
 		await ctx.reply(f'```{ascii_table}```')
 
 
